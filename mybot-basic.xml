@@ -1,0 +1,343 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greetings and Politeness -->
+<category> <pattern> HELLO </pattern>
+  <template>Hello! How are you?</template> </category>
+
+<category> <pattern> HELLO * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HOW ARE YOU </pattern>
+  <template>I'm functioning within normal parameters, thanks for asking.</template></category>
+
+<category><pattern> I AM FINE </pattern>
+  <template>That's good to know. What would you like to discuss about?</template></category>
+
+<category><pattern> GOOD </pattern>
+  <template>That's good to know. What would you like to discuss about?</template></category>
+
+<category><pattern> I AM GOOD </pattern>
+  <template>That's good to know. What would you like to discuss about?</template></category>
+
+<category><pattern> I'M GOOD </pattern>
+  <template>That's good to know. What would you like to discuss about?</template></category>
+
+<category><pattern> BYE </pattern>
+  <template>#0$Bye! Nice talking to you. You take care now.</template></category>
+
+<category><pattern> GOODBYE </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern> EXIT </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category> <pattern> THANKS </pattern>
+  <template>You are welcome.</template></category>
+
+<category> <pattern> THANK YOU </pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category> <pattern> CHEERS </pattern>
+  <template>Sure mate.</template></category>
+
+<category> <pattern> CHEERS * </pattern>
+  <template>Sure mate.</template></category>
+
+<!--- Computer Details Topic -->
+
+  <!---1. Graphic Card -->
+<category> <pattern> WHAT IS A GRAPHIC CARD </pattern>
+  <template>A graphics card is an expansion card for your PC that is responsible for rendering images to the display.</template></category>
+
+<category>
+  <pattern> WHAT IS A GPU </pattern>
+  <template><srai>WHAT IS A GRAPHIC CARD</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN GRAPHICS CARD </pattern>
+  <template><srai>WHAT IS A GRAPHIC CARD</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT GRAPHIC CARDS </pattern>
+  <template><srai>WHAT IS A GRAPHIC CARD</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES GRAPHIC CARDS STANDS FOR </pattern>
+  <template><srai>WHAT IS A GRAPHIC CARD</srai></template>
+</category>
+
+<!---2. Processor CPU -->
+<category> <pattern> WHAT IS A CPU </pattern>
+  <template>The CPU is the brain of a computer, containing all the circuitry needed to process input, store data, and output results.
+The CPU is constantly following instructions of computer programs that tell it which data to process and how to process it. Without a CPU, we could not run programs on a computer.</template></category>
+
+<category>
+  <pattern> WHAT IS A PROCESSOR </pattern>
+  <template><srai>WHAT IS A CPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT IS A CENTRAL PROCESSING UNIT </pattern>
+  <template><srai>WHAT IS A CPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES CPU STAND FOR </pattern>
+  <template><srai>WHAT IS A CPU</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT THE CPU </pattern>
+  <template><srai>WHAT IS A CPU</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN CPU </pattern>
+  <template><srai>WHAT IS A CPU</srai></template>
+</category>
+
+<!---3. RAM -->
+
+<category> <pattern> WHAT IS A RAM </pattern>
+  <template>RAM is a high-speed, short-term storage solution that gives applications, games, and the operating system itself, quick access to important information. That saves it the time of retrieving the data from much slower storage, like hard drives and SSDs.</template></category>
+
+<category>
+  <pattern> WHAT IS MEMORY </pattern>
+  <template><srai>WHAT IS A RAM</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN RAM </pattern>
+  <template><srai>WHAT IS A RAM</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT RAM </pattern>
+  <template><srai>WHAT IS A RAM</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT IS RANDOM ACCESS MEMORY </pattern>
+  <template><srai>WHAT IS A RAM</srai></template>
+</category>
+
+<!---4. Motherboard -->
+
+<category> <pattern> WHAT IS A MOTHERBOARD </pattern>
+  <template>A motherboard is the main circuit board in a computer system. It connects all of the internal components, like the memory, processor, graphics card and other hardware.</template></category>
+
+<category>
+  <pattern> WHAT IS MOTHERBOARD </pattern>
+  <template><srai>WHAT IS A MOTHERBOARD</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES MOTHERBOARD STAND FOR </pattern>
+  <template><srai>WHAT IS A MOTHERBOARD</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT THE MOTHERBOARD </pattern>
+  <template><srai>WHAT IS A MOTHERBOARD</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN MOTHERBOARD </pattern>
+  <template><srai>WHAT IS A MOTHERBOARD</srai></template>
+</category>
+
+
+  <!---5. HDD -->
+
+<category> <pattern> WHAT IS A HDD </pattern>
+  <template>A hard disk drive (HDD) is an internal or external computer component that stores data, such as the operating system, applications, and user files.</template></category>
+
+<category>
+  <pattern> WHAT IS HDD </pattern>
+  <template><srai>WHAT IS A HDD</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES HDD STAND FOR </pattern>
+  <template><srai>WHAT IS A HDD</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT THE HDD </pattern>
+  <template><srai>WHAT IS A HDD</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN HDD </pattern>
+  <template><srai>WHAT IS A HDD</srai></template>
+</category>
+
+  <!---6. SSD -->
+
+<category>
+  <pattern> WHAT IS A SSD </pattern>
+  <template>An SSD, or solid-state drive, is a type of storage device used in computers. This non-volatile storage media stores persistent data on solid-state flash.</template>
+</category>
+
+<category>
+  <pattern> WHAT IS SSD </pattern>
+  <template><srai>WHAT IS A SSD</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES SSD STAND FOR </pattern>
+  <template><srai>WHAT IS A SSD</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT THE SSD </pattern>
+  <template><srai>WHAT IS A SSD</srai></template>
+</category>
+
+<category>
+  <pattern> EXPLAIN SSD </pattern>
+  <template><srai>WHAT IS A SSD</srai></template>
+</category>
+
+  <!---7. PSU -->
+
+<category>
+  <pattern> WHAT IS A POWER SUPPLY UNIT </pattern>
+  <template>A power supply unit (PSU) is an electronic component that converts AC (alternating current) power from a wall outlet into DC (direct current) power suitable for powering electronic devices such as computers.</template>
+</category>
+
+<category>
+  <pattern> WHAT IS A PSU </pattern>
+  <template><srai>WHAT IS A POWER SUPPLY UNIT</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT POWER SUPPLY UNIT </pattern>
+  <template><srai>WHAT IS A POWER SUPPLY UNIT</srai></template>
+</category>
+
+<category>
+  <pattern> TELL ME ABOUT PSU </pattern>
+  <template><srai>WHAT IS A POWER SUPPLY UNIT</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES PSU STAND FOR </pattern>
+  <template><srai>WHAT IS A POWER SUPPLY UNIT</srai></template>
+</category>
+
+  <!---8. Computer Details -->
+
+<category>
+  <pattern> WHAT PARTS DOES COMPUTER CONSIST OF </pattern>
+  <template>To operate, a computer must consist of a motherboard, processor, RAM, video card (discrete or integrated into the processor), storage and power supply.</template>
+</category>
+
+<category>
+  <pattern> WHAT ARE THE DETAILS OF COMPUTER </pattern>
+  <template><srai>WHAT PARTS DOES COMPUTER CONSIST OF</srai></template>
+</category>
+
+<category>
+  <pattern> CONSISTENCE OF COMPUTER </pattern>
+  <template><srai>WHAT PARTS DOES COMPUTER CONSIST OF</srai></template>
+</category>
+
+<category>
+  <pattern> DETAILS OF PC </pattern>
+  <template><srai>WHAT PARTS DOES COMPUTER CONSIST OF</srai></template>
+</category>
+
+<!--9. Difference between discrete and integrated gpu -->
+
+<category>
+  <pattern> WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU </pattern>
+  <template>Discrete and integrated graphics are two types of graphics processing units (GPUs) used in computers. Integrated graphics are built into the CPU and share memory and processing power with it, while discrete graphics are separate cards with their own memory, processor, and cooling system</template>
+</category>
+
+<category>
+  <pattern> DISCRETE AND INTEGRATED GPU </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GRAPHIC CARDS </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT ARE TYPES OF GRAPHIC CARDS </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT ARE THE TYPES OF GRAPHIC CARDS </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT ARE THE TYPES OF GPU </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT ARE TYPES OF GPU </pattern>
+  <template><srai>WHAT IS DIFFERENCE BETWEEN DISCRETE AND INTEGRATED GPU</srai></template>
+</category>
+
+<!-- 10. What are peripheral devices -->
+<category>
+  <pattern> WHAT ARE PERIPHERAL DEVICES </pattern>
+  <template>A Peripheral Device is defined as a device that provides input/output functions for a computer and serves as an auxiliary computer device without computing-intensive functionality.</template>
+</category>
+
+<category>
+  <pattern> WHAT ARE INPUT OUTPUT DEVICES </pattern>
+  <template><srai>WHAT ARE PERIPHERAL DEVICES</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT DOES PERIPHERAL DEVICES STAND FOR </pattern>
+  <template><srai>WHAT ARE PERIPHERAL DEVICES</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT IS INPUT DEVICE </pattern>
+  <template><srai>WHAT ARE PERIPHERAL DEVICES</srai></template>
+</category>
+
+<category>
+  <pattern> WHAT IS OUTPUT DEVICE </pattern>
+  <template><srai>WHAT ARE PERIPHERAL DEVICES</srai></template>
+</category>
+
+<!-- Logic input -->
+<category><pattern> I KNOW THAT * IS *</pattern>
+  <template>#31$<star index="1"/> is <star index="2"/></template></category>
+
+<category><pattern> CHECK THAT * IS *</pattern>
+  <template>#32$<star index="1"/> is <star index="2"/></template></category>
+
+<category>
+  <pattern> CHECK THAT * ARE PLUGGED INTO *</pattern>
+  <template>#33$<star index="1"/> and <star index="2"/></template>
+</category>
+
+<!-- Image Selection -->
+<category><pattern> WHAT IS THIS IMAGE </pattern>
+  <template>#34$</template></category>
+
+<!-- Default reaction -->
+<category><pattern> * </pattern>
+  <template>#99$<star index="1"/></template></category>
+
+</aiml>
